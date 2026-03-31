@@ -6,7 +6,7 @@ export default function LinksList({ links, copy, deleteLink, theme }) {
         {links.map((link) => (
           <div 
             key={link.slug}
-            className={`p-5 rounded-2xl shadow-lg flex flex-col md:flex-row md:justify-between md:items-center transition hover:shadow-2xl hover:scale-105 ${theme === "light" ? "bg-white/80" : "bg-gray-700/70"
+            className={`p-6 rounded-2xl shadow-lg flex flex-col md:flex-row md:justify-between md:items-center transition hover:shadow-2xl hover:scale-105 ${theme === "light" ? "bg-white/80" : "bg-gray-700/70"
               }`}
           >
             <div className="flex-1 flex flex-col md:flex-row md:items-center md:gap-4">
