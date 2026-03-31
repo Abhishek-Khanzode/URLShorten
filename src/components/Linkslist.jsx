@@ -4,7 +4,7 @@ export default function LinksList({ links, copy, deleteLink, theme }) {
       {links.length > 0 && <h2 className="text-2xl sm:text-3xl font-bold mb-6">Your Links</h2>}
       <div className="grid gap-6">
         {links.map((link) => (
-          <div
+          <div 
             key={link.slug}
             className={`p-5 rounded-2xl shadow-lg flex flex-col md:flex-row md:justify-between md:items-center transition hover:shadow-2xl hover:scale-105 ${theme === "light" ? "bg-white/80" : "bg-gray-700/70"
               }`}
