@@ -18,15 +18,27 @@ export default function App() {
     setLinks(stored);
   }, []);
 
+  // useEffect(() => {
+  //   const path = window.location.pathname.replace("/", "");
+  //   if (!path) return;
+
+  //   const stored = JSON.parse(localStorage.getItem(URLS_KEY)) || [];
+  //   const found = stored.find((l) => l.slug === path);
+  //   if (found) window.location.href = found.original;
+  // }, []);
+
   useEffect(() => {
-    const path = window.location.pathname.replace("/", "");
+    const path = window.location.pathname.slice(1);
     if (!path) return;
 
     const stored = JSON.parse(localStorage.getItem(URLS_KEY)) || [];
-    const found = stored.find((l) => l.slug === path);
-    if (found) window.location.href = found.original;
-  }, []);
+    const found = stored.find(l => l.slug === path);
 
+    if (found) {
+      window.location.replace(found.original);
+    }
+  }, []);
+  
   const generateSlug = (inputUrl) => {
     try {
       const u = new URL(inputUrl);
