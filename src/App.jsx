@@ -32,12 +32,13 @@ export default function App() {
     if (!path) return;
 
     const stored = JSON.parse(localStorage.getItem(URLS_KEY)) || [];
-    const found = stored.find(l => l.slug === path);
+    const found = stored.find((l) => l.slug === path);
 
     if (found) {
       window.location.replace(found.original);
     }
   }, []);
+
   
   const generateSlug = (inputUrl) => {
     try {
