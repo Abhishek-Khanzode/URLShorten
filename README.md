@@ -1,16 +1,77 @@
-# React + Vite
+# URLShorten - Personal URL Shortener
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![URLShorten Banner](https://github.com/Abhishek-Khanzode/URLShorten/tree/main/public/images/banner.png)
 
-Currently, two official plugins are available:
+## 🔗 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Visit: URLShorten](https://urlshorten-1.vercel.app)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+A **fast, lightweight, and personal-use URL shortener** built with **React.js** and **Tailwind CSS**.  
+Shorten your URLs instantly, copy them, manage your links, and share them on social media!  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- **Instant URL Shortening** – Convert long URLs into short, shareable links.
+- **Custom-Friendly Slugs** – Automatically generates readable slugs from the domain name.
+- **Copy & Delete** – Easily copy or delete your shortened links.
+- **Light & Dark Mode** – Toggle between themes for better readability.
+- **Offline Storage** – All your links are stored in your browser using **localStorage**.
+- **Responsive Design** – Works on desktop, tablet, and mobile seamlessly.
+- **Footer & Author Link** – Includes full-page footer with links to features, your links, and creator.
+
+---
+
+## 📸 Screenshots
+
+### Light Mode
+![Light Mode Screenshot](https://github.com/Abhishek-Khanzode/URLShorten/tree/main/public/images/light-preview.png)
+
+### Dark Mode
+![Dark Mode Screenshot](https://github.com/Abhishek-Khanzode/URLShorten/tree/main/public/images/dark-preview.png)
+
+### Example Shortened URL
+
+
+---
+
+## 💻 Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS
+- **Storage:** localStorage
+- **Hosting:** Vercel (optional)
+- **Icons & UI:** Native emojis & Tailwind utilities
+
+---
+
+## ⚡ How It Works
+
+1. Enter a long URL in the input box.
+2. Click **Shorten** to generate a custom short link.
+3. Copy your link using the **Copy** button or delete unwanted links.
+4. The slug is automatically generated from the domain name (e.g., `https://awwwards.com` → `urlshorten.vercel.app/awwwards`).
+5. Share your link on **Instagram, LinkedIn, Twitter**, or anywhere online.
+
+---
+
+## 🛠 Installation (Local Use)
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/your-username/urlshorten.in.git 
+cd urlshorten
+npm install
+npm run dev
+```
+
+
+## License
+[MIT](./LICENSE)
+
+
+## Authors
+
+- [@Abhishek Khanzode](https://github.com/Abhishek-Khanzode/)
