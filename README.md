@@ -1,6 +1,6 @@
 # URLShorten - Personal URL Shortener
 
-![URLShorten Banner](https://github.com/Abhishek-Khanzode/URLShorten/tree/main/public/images/banner.png)
+![URLShorten Banner](https://github.com/Abhishek-Khanzode/URLShorten/blob/3cc8b7e039d4758d2aadb351803ff932308dbc36/public/images/banner.png)
 
 ## 🔗 Live Website
 
@@ -28,10 +28,10 @@ Shorten your URLs instantly, copy them, manage your links, and share them on soc
 ## 📸 Screenshots
 
 ### Light Mode
-![Light Mode Screenshot](https://github.com/Abhishek-Khanzode/URLShorten/tree/main/public/images/light-preview.png)
+![Light Mode Screenshot](https://github.com/Abhishek-Khanzode/URLShorten/blob/3cc8b7e039d4758d2aadb351803ff932308dbc36/public/images/light-preview.png)
 
 ### Dark Mode
-![Dark Mode Screenshot](https://github.com/Abhishek-Khanzode/URLShorten/tree/main/public/images/dark-preview.png)
+![Dark Mode Screenshot](https://github.com/Abhishek-Khanzode/URLShorten/blob/3cc8b7e039d4758d2aadb351803ff932308dbc36/public/images/dark-preview.png)
 
 ### Example Shortened URL
 
